@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
+import { Mail, MapPin, Phone } from "lucide-react"
 import { CONTACT } from "../constants"
+
 const Contact = () => {
   return (
     <div className="border-t border-stone-900 pb-20">
@@ -11,26 +13,45 @@ const Contact = () => {
       >
         Get in Touch
       </motion.h2>
-      <div className="text-center tracking-tighter">
-        <motion.p
+
+      <div className="max-w-2xl mx-auto space-y-6">
+        {/* Address */}
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="flex items-center justify-center gap-3"
         >
-          {CONTACT.address}
-        </motion.p>
-        <motion.p
+          <MapPin className="w-6 h-6 text-blue-500" />
+          <p className="text-lg">{CONTACT.address}</p>
+        </motion.div>
+
+        {/* Phone */}
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="flex items-center justify-center gap-3"
         >
-          {CONTACT.phoneNo}
-        </motion.p>
-        <a href="mailto:sahildeore1234@gmail.com" className="border-b">
-          {CONTACT.email}
-        </a>
+          <Phone className="w-6 h-6 text-green-500" />
+          <p className="text-lg">{CONTACT.phoneNo}</p>
+        </motion.div>
+
+        {/* Email */}
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 50 }}
+          transition={{ duration: 1 }}
+          className="flex items-center justify-center gap-3"
+        >
+          <Mail className="w-6 h-6 text-red-500" />
+          <a
+            href="mailto:sahildeore1234@gmail.com"
+            className="text-lg border-b hover:text-blue-500 transition-colors"
+          >
+            {CONTACT.email}
+          </a>
+        </motion.div>
       </div>
     </div>
   )
