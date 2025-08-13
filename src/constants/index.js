@@ -32,11 +32,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "virtualR Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A landing page for a virtualR company which provides build tools for developers, bringing users VR app idea to life.",
+    technologies: ["React", "HTML", "Tailwind CSS", "JavaScript"],
   },
   {
     title: "Portfolio Website",
@@ -46,11 +46,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "IronFit Gym Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A website for showcasing gym information, with sections for classes, trainers, pricing, and contact details, designed for easy navigation and a modern look.",
+    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
   },
 ]
 
