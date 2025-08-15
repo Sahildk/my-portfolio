@@ -43,7 +43,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],
   },
   {
     title: "IronFit Gym Website",
