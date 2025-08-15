@@ -9,17 +9,17 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "June 2025 - July 2025",
-    role: "Frontend Developer",
+    role: "Frontend Developer Intern",
     company: "Dosa Plaza India",
-    description: `Designed and developed a responsive and visually engaging café website using React.js, JavaScript, Tailwind CSS, HTML, and CSS. Built reusable components, implemented smooth navigation, and optimized the site for mobile and desktop. Focused on delivering an intuitive user experience that highlights the café’s brand and menu offerings.`,
-    technologies: ["Javascript", "React.js", "Next.js", "Tailwind CSS "],
+    description: `Designed and developed a responsive, SEO-optimized café website using React.js, JavaScript, Tailwind CSS, and Next.js. Built reusable components, implemented smooth navigation, and optimized performance for mobile and desktop, improving load speed and search engine visibility.`,
+    technologies: ["React.js", "JavaScript", "Next.js", "Tailwind CSS"],
   },
   {
     year: "May 2025 - June 2025",
-    role: "Freelance Web Developer",
+    role: "Contract Web Developer",
     company: "Dosa Plaza India",
-    description: `Developed a responsive hotel website using JavaScript, Tailwind CSS, HTML, and CSS, ensuring a clean UI, fast performance, and mobile-friendly design.`,
-    technologies: ["HTML", "Tailwind CSS", "Javascript"],
+    description: `Developed a responsive, SEO-optimized hotel website using HTML, JavaScript, and Tailwind CSS, ensuring a clean UI, fast load times, mobile-friendly design, and improved search engine ranking potential.`,
+    technologies: ["HTML", "JavaScript", "Tailwind CSS"],
   },
 ]
 
@@ -29,28 +29,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
   },
   {
-    title: "virtualR Website",
+    title: "VirtualR Website",
     image: project2,
     description:
-      "A landing page for a virtualR company which provides build tools for developers, bringing users VR app idea to life.",
-    technologies: ["React", "HTML", "Tailwind CSS", "JavaScript"],
+      "A landing page for a virtualR company that provides build tools for developers, bringing users' VR app ideas to life.",
+    technologies: ["React", "Tailwind CSS", "JavaScript (ES6+)"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind CSS", "JavaScript (ES6+)"],
   },
   {
     title: "IronFit Gym Website",
     image: project4,
     description:
       "A website for showcasing gym information, with sections for classes, trainers, pricing, and contact details, designed for easy navigation and a modern look.",
-    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+    technologies: ["HTML5", "Tailwind CSS", "JavaScript", "Bootstrap"],
   },
 ]
 
